@@ -109,11 +109,9 @@ img{
     margin-top: 250px;
     margin-left: 175px;
     width: 700px;
-    filter: grayscale(1);
 }
 
 img:hover{
-    filter: grayscale(0);
     transition: 3s;
     cursor:pointer;
 }
