@@ -2,6 +2,8 @@ body{
     background-color: blanchedalmond;
     margin:0 20%;
     font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    text-align: center;
 }
 
 #title{
@@ -29,10 +31,26 @@ h1.title{
     text-shadow: 5px 5px 10px black;
 }
 
+h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 h3{
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
 
 p{
     text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p.p1{
+    font-size: 15px;
 }
