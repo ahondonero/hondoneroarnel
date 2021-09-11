@@ -107,6 +107,7 @@ main{
 
 .btns:hover{
     background: #848482;
+    transition: 0.5 all ease;
 }
 
 img{
