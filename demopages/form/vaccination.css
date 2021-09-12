@@ -2,13 +2,19 @@
 
 :root{
     --color-white:#f3f3f3;
-    --color-darkblue:#796ec8;
-    --color-darkblue-alpha:rgba(13, 138, 187, 0.8);
+    --color-darkblue:#d8d53e;
+    --color-darkblue-alpha:rgba(56, 174, 179, 0.8);
     --color-green:#21eb6e;
 }
 *,*::before,*::after{
     box-sizing: border-box;
 }
+img{
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 100px;
+}
+
 body{
     font-family: 'Poppins',sans-serif;
     font-size: 1rem;
@@ -33,9 +39,10 @@ body::before{
 }
 #title{
     color: var(--color-green);
-    font-weight: 600;
-    
-    
+    font-weight: 600; 
+}
+.container .header #title{
+    color: greenyellow;
 }
 h1{
     font-weight: 400;
@@ -97,9 +104,9 @@ form{
         padding: 2.5rem;
     }
 }
-.form-group{
+.covid-form{
     margin: 0 auto 1.25rem auto;
-    padding: 0.25rem;
+    padding: 10px;
 }
 .formControl{
     display: block;
@@ -132,14 +139,14 @@ form{
     padding: 0.75rem;
     font-size: 1.15rem;
     outline: none;
-    border-color: blue;
+    border-color: rgb(241, 191, 98);;
     border-radius: 5px;
 }
 .btn{
     display: block;
     width: 100%;
     padding:0.5rem 0.75rem;
-    background: var(--color-green);
+    background: greenyellow;
     color: inherit;
     border-radius: 15px;
     cursor: pointer;

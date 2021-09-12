@@ -21,8 +21,9 @@ h1{
     position: absolute;
     top: 0;
     left: 0;
-    font-family: 'Karla';
+    font-family: 'Poppins';
 }
+
 
 .navbar a{
     text-decoration: none;
@@ -37,7 +38,7 @@ h1{
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-family: 'Karla';
+    font-family: 'Poppins';
     color: #DEB992;
     font-weight: bold;
 }
