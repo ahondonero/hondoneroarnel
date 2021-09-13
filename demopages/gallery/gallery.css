@@ -37,7 +37,7 @@ body{
   }
 
 h1{
-    color: #C5C6C7;
+    color: #fff;
     text-align: center;
     font-size: 45px;
     font-family: 'Poppins';
@@ -45,7 +45,7 @@ h1{
 }
 
 h2{
-    color: #C5C6C7;
+    color: #fff;
     text-align: center;
     font-size: 45px;
     font-family: 'Poppins';
@@ -65,8 +65,8 @@ h2{
     margin: 5px;
     width: 200px;
     height: 50px;
-   background-color: antiquewhite;
+   background-color: white;
     border-radius: 10px;
     border-color: #fff;
-    color: #C5C6C7;
+    color: #fff;
 }
