@@ -24,7 +24,7 @@
 
         <div class="covid-form">
             <label for="age">Age</label>
-            <input type="number" name="age" id="age" class="formControl" placeholder="Enter your age (must be 18 above)" required min="18" max="100">
+            <input type="number" name="age" id="age" class="formControl" placeholder="Enter your age" required min="18" max="100">
           </div>
 
         <div class="covid-form">
@@ -43,7 +43,7 @@
         </div>
 
         <div class="covid-form">
-            <p id="quest">Which option best describe your current role</p>
+            <p id="quest">Which option best describe your current role?</p>
             <select name="role" required id="dropdown" class="formControl">
                 <option value disabled selected >Select current role</option>
                 <option value="frontliners">Frontliners</option>
@@ -73,23 +73,18 @@
             </label>
             <label for="">
                 <input type="checkbox" name="health" class="checkbox" value="other" > Others
-                <textarea name="others2" cols="15" rows="5" id="others2" class="textarea" ></textarea>
+                <textarea name="others2" cols="15" rows="5" id="others2" class="textarea" placeholder="Fill-up this when you select 'Others'" ></textarea>
             </label>
         </div>
         <div class="covid-form">
-            <p id="quest">Vaccine Preference:</p>
-            <label class="radio">
-                <input type="radio" name="vaccine" value="pfizer" class="inputRadio" checked> Pfizer
-            </label>
-            <label class="radio">
-                <input type="radio" name="vaccine" value="sinovac" class="inputRadio"> Sinovac
-            </label>
-            <label class="radio">
-                <input type="radio" name="vaccinee" value="moderna" class="inputRadio"> Moderna
-            </label>
-            <label class="radio">
-                <input type="radio" name="vaccinee" value="sputnik-v" class="inputRadio"> Sputnik V
-            </label>
+            <p id="quest">Which vaccination vaccine you choose?</p>
+            <select name="role" required id="dropdown" class="formControl">
+                <option value disabled selected >Select vaccine preference</option>
+                <option value="frontliners">Pfizer</option>
+                <option value="student">Moderna</option>
+                <option value="student">sputnik-v</option>
+                <option value="student">J%J</option>
+            </select>
         </div>
         <div class="covid-form">
             <button type="submit" id="submit" class="btn">Submit</button>
