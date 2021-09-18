@@ -391,35 +391,3 @@ footer p{
         margin: 0 -35px 0 35px;
     }
 }
-
-#skills{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 90%;
-    margin: auto auto 50px auto;
-}
-
-.skill-text{
-    width: 400px;
-}
-
-.skill-img{
-    width: 600px;
-    height: 600px;
-}
-
-.skill-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-.skill-heading{
-    color: #fff;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 1rem;
-}
-
