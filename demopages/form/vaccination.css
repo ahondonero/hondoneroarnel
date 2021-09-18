@@ -168,11 +168,14 @@ form .category{
 }
 }
 
-
-.gender-details .span{
-    font-size: 100px;
+label {
+    margin-right: 25px;
 }
 
-label {
-    margin-right: 25px; 
+label .vac{
+    margin-right: 15px;
+}
+
+select{
+    font-size: 16px;
 }

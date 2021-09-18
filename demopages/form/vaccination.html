@@ -28,7 +28,7 @@
               </div>
               <div class="input-box">
                 <span class="details">Birth Date:</span>
-                <input type="number" placeholder="Enter your Birth Date" required>
+                <input type="number" placeholder="Enter your BirthDate(ex.08/24/00)" required>
               </div>
               <div class="input-box">
                 <span class="details">Address:</span>
@@ -39,23 +39,6 @@
                 <input type="tel" placeholder="Enter your Phone Number" required>
               </div>
             </div>
-            <div class="gender-details">
-              <label for="priority_group"><span class="gender-title">Priority Group:</span></label>
-              <select type="text" name="priority_group" id="priority group" placeholder="Select Priority Group" required>
-                  <option value="a">A. Health Care Workers</option>
-                  <option value="b">B. Senior Citizens</option>
-                  <option value="c">C. Adult with Comorbidity</option>
-                  <option value="d">D. Frontline Personnel in Essential Sector</option>
-                  <option value="e">E. Poor Population</option>
-                  <option value="f">F. Teachers and Social Workers</option>
-                  <option value="g">G. Other Government Workers</option>
-                  <option value="h">H. Other Essential Workers</option>
-                  <option value="i">I. Socio-Demographic Groups</option>
-                  <option value="j">J. Overseas Filipino Workers</option>
-                  <option value="k">K. Other Remaining Workforce</option>
-                  <option value="l">L. Rest of the Population</option>
-              </select>    
-          </div>
             <div class="gender-details">
               <input type="radio" name="gender" id="dot-1">
               <input type="radio" name="gender" id="dot-2">
@@ -75,6 +58,35 @@
                 <span class="gender"></span>
                 </label>
           </div>
+            <div class="gender-details">
+              <label for="priority_group"><span class="gender-title">Priority Group:</span></label>
+              <select type="text" name="priority_group" id="priority group" placeholder="Select Priority Group" required>
+                  <option value="a">A. Health Care Workers</option>
+                  <option value="b">B. Senior Citizens</option>
+                  <option value="c">C. Adult with Comorbidity</option>
+                  <option value="d">D. Frontline Personnel in Essential Sector</option>
+                  <option value="e">E. Poor Population</option>
+                  <option value="f">F. Teachers and Social Workers</option>
+                  <option value="g">G. Other Government Workers</option>
+                  <option value="h">H. Other Essential Workers</option>
+                  <option value="i">I. Socio-Demographic Groups</option>
+                  <option value="j">J. Overseas Filipino Workers</option>
+                  <option value="k">K. Other Remaining Workforce</option>
+                  <option value="l">L. Rest of the Population</option>
+              </select>    
+          </div>
+          <br>
+          <div class="gender-details">
+            <label class="vac" for="priority_group"><span class="gender-title">Vaccination Preference:</span></label>
+            <select type="text" name="priority_group" id="priority group" placeholder="Select Priority Group" required>
+                <option value="a">Select your Vaccination Preference</option>
+                <option value="a">Pfizer</option>
+                <option value="b">Sinovac</option>
+                <option value="c">Moderna</option>
+                <option value="c">J&J</option>
+            </select>    
+        </div>
+            
             <div class="button">
                 <input type="submit" value="Register">
             </div>
