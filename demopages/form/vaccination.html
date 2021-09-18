@@ -6,91 +6,84 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>COVID-19 Vaccination Form</title>
   <link rel="stylesheet" href="vaccination.css"/>
+
 </head>
 <body>
- <div> <img src="./images/doh1.png"> </div>
-   <div class="container ">
-    <header class="header">
-        <h1 id="title"> COVID-19 Vaccination Registration Form</h1>
-        <p id="description">Please fill-up the form completely.</p>
-    </header>
-    <form action="" id="survey-form">
-
-
-        <div class="covid-form">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required>
-        </div>
-
-        <div class="covid-form">
-            <label for="age">Age</label>
-            <input type="number" name="age" id="age" class="formControl" placeholder="Enter your age" required min="18" max="100">
+    <div class="container">
+        <div class="title">Registration</div>
+        <div class="content">
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">First Name:</span>
+                <input type="text" placeholder="Enter your First Name" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Last Name:</span>
+                <input type="text" placeholder="Enter your Last Name" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Age:</span>
+                <input type="number" placeholder="Enter your Age" min="1" max="100" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Birth Date:</span>
+                <input type="number" placeholder="Enter your Birth Date" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Address:</span>
+                <input type="text" placeholder="Enter your Complete Address" required>
+              </div>
+              <div class="input-box">
+                <span class="details">Phone Number:</span>
+                <input type="tel" placeholder="Enter your Phone Number" required>
+              </div>
+            </div>
+            <div class="gender-details">
+              <label for="priority_group"><span class="gender-title">Priority Group:</span></label>
+              <select type="text" name="priority_group" id="priority group" placeholder="Select Priority Group" required>
+                  <option value="a">A. Health Care Workers</option>
+                  <option value="b">B. Senior Citizens</option>
+                  <option value="c">C. Adult with Comorbidity</option>
+                  <option value="d">D. Frontline Personnel in Essential Sector</option>
+                  <option value="e">E. Poor Population</option>
+                  <option value="f">F. Teachers and Social Workers</option>
+                  <option value="g">G. Other Government Workers</option>
+                  <option value="h">H. Other Essential Workers</option>
+                  <option value="i">I. Socio-Demographic Groups</option>
+                  <option value="j">J. Overseas Filipino Workers</option>
+                  <option value="k">K. Other Remaining Workforce</option>
+                  <option value="l">L. Rest of the Population</option>
+              </select>    
           </div>
-
-        <div class="covid-form">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" class="formControl" placeholder="Enter your Email" required>
+            <div class="gender-details">
+              <input type="radio" name="gender" id="dot-1">
+              <input type="radio" name="gender" id="dot-2">
+              <input type="radio" name="gender" id="dot-3">
+              <span class="gender-title">Gender:</span>
+              <div class="category">
+                <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Male</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Female</span>
+              </label>
+              <label for="dot-3">
+                <span class=""></span>
+                <span class="gender"></span>
+                </label>
+          </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+            <div class="button">
+                <input type="submit" value="Cancel">
+            </div>
+          </form>
         </div>
-
-        <div class="covid-form">
-            <label for="phone">Phone Number</label>
-            <input type="text" name="phone" id="phone" class="formControl" placeholder="Enter your phone number" required>
-        </div>
-
-        <div class="covid-form">
-            <label for="address">Address</label>
-            <input type="text" name="address" id="address" class="formControl" placeholder="Enter your address" required>
-        </div>
-
-        <div class="covid-form">
-            <p id="quest">Which option best describe your current role?</p>
-            <select name="role" required id="dropdown" class="formControl">
-                <option value disabled selected >Select current role</option>
-                <option value="frontliners">Frontliners</option>
-                <option value="student">Student</option>
-                <option value="other">Other<textarea name="feedback"  cols="1" rows="1"  id="feedback" class="textarea" placeholder="If you select 'Other', Please type your job or current role"></textarea></option>
-            </select>
-        </div>
-        <div class="covid-form">
-            <p id="quest">Gender</p>
-            <label for="">
-                <input type="radio" name="source" value="male" class="inputRadio" checked> Male
-            </label>
-            <label for="">
-                <input type="radio" name="source" value="female" class="inputRadio">Female
-            </label>
-        </div>
-        <div class="covid-form">
-            <p id="quest">Health History: </p>
-            <label for="">
-                <input type="checkbox" name="health" class="checkbox" value="ques1"> Do you or did anyone in our family have any long-term health problems, like heart disease, diabetes, kidney disease, bleeding disorder, or lung disease?
-            </label>
-            <label for="">
-                <input type="checkbox" name="health" class="checkbox" value="ques"> Do you or did anyone in our family have any health issues like high blood pressure, high cholesterol, or asthma?
-            </label>
-            <label for="">
-                <input type="checkbox" name="health" class="checkbox" value="ques3">  Does anyone in our family have any other serious illnesses, such as cancer, stroke, Alzheimer's/dementia, genetic birth disorder, or osteoporosis?
-            </label>
-            <label for="">
-                <input type="checkbox" name="health" class="checkbox" value="other" > Others
-                <textarea name="others2" cols="15" rows="5" id="others2" class="textarea" placeholder="Fill-up this when you select 'Others'" ></textarea>
-            </label>
-        </div>
-        <div class="covid-form">
-            <p id="quest">Which vaccination vaccine you choose?</p>
-            <select name="role" required id="dropdown" class="formControl">
-                <option value disabled selected >Select vaccine preference</option>
-                <option value="frontliners">Pfizer</option>
-                <option value="student">Moderna</option>
-                <option value="student">sputnik-v</option>
-                <option value="student">J%J</option>
-            </select>
-        </div>
-        <div class="covid-form">
-            <button type="submit" id="submit" class="btn">Submit</button>
-        </div>
-    </form>
-</div>
+      </div>
   
 </body>
 </html>
