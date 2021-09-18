@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    position: static;
 }
 
 h1{
@@ -395,7 +396,7 @@ footer p{
 .about-me {
     background-color: #fff;
     padding: 6rem 0;
-    position: static;
+   
   }
   
   .about-me .about-heading {
