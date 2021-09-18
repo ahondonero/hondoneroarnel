@@ -107,11 +107,17 @@ h1{
     font-size: 100px;
 }
 
+.p2 span{
+    color: #7689de;
+    font-weight: bold;
+    white-space: pre-line;
+}
+
 p{
-    margin-top: 10px;
+    margin-top: 5px;
     text-align: justify;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 main{
@@ -143,7 +149,7 @@ main{
 }
 
 img{
-    margin-top: 50px;
+    margin-top: 5px;
     margin-left: 30px;
     width: 900px;
     margin-bottom: auto;
@@ -348,8 +354,8 @@ footer p{
 /*#22577A*/
 .wrapper .static-txt{
     color: #000;
-    font-size: 50px;
-    font-weight: 300;
+    font-size: 40px;
+    font-weight: 200;
     font-family: 'Poppins';
 }
 
@@ -364,7 +370,7 @@ footer p{
 .dynamic-txts li{
     color: #7689de;
     list-style: none;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 300;
     font-family: 'Poppins';
 }
@@ -381,7 +387,7 @@ footer p{
     width: 100%;
     background: #a9dce3;
     border-left: 2px solid #7689de;
-    animation: typing 1.5s steps(9) infinite;
+    animation: typing 1.5s steps(12) infinite;
 }
 
 @keyframes typing{
