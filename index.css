@@ -195,7 +195,7 @@ img:hover{
     font-size: 35px;
     color: #DEB992;
 }
-/*
+
 footer{
     position: relative;
     width: 100%;
@@ -389,4 +389,8 @@ footer p{
         left: 100%;
         margin: 0 -35px 0 35px;
     }
+}
+
+@media screen{
+
 }
