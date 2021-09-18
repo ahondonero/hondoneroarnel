@@ -395,7 +395,7 @@ footer p{
 .about-me {
     background-color: #fff;
     padding: 6rem 0;
-    position: relative;
+    position: static;
   }
   
   .about-me .about-heading {
