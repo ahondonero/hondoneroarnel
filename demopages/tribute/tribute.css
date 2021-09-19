@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 body{
-    background-color: blanchedalmond;
+    background-color: #a9dce3;
     margin:0 20%;
     font-family: 'Poppins';
     justify-content: center;
     text-align: center;
 }
+
+
 
 #title{
     text-align: center;
@@ -30,7 +32,7 @@ div#tribute-info{
 h1.title{
     color:white;
     text-align:center;
-    text-shadow: 5px 5px 10px black;
+    text-shadow: 5px 5px 10px grey;
 }
 
 h2{
