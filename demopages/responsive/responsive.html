@@ -14,11 +14,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
-    <link
-      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="responsive.css" />
     <title>A R N E L</title>
   </head>
   <body>
@@ -64,7 +61,7 @@
             <h2 class="text-center mb-4">Contact Info</h2>
             <ul class="list-group list-group-flush lead">
               <li class="list-group-item">
-                <span class="fw-bold">Main Location:</span> Purok 20, Nabunturan, Davao de Oro
+                <span class="fw-bold">Main Location:</span> Arabejo Ave, Nabunturan, Davao de Oro
               </li>
               <li class="list-group-item">
                 <span class="fw-bold">Enrollment Phone:</span> 097744433335
@@ -94,17 +91,17 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
 
     <script>
-      mapboxgl.accessToken =
-        'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
+      mapboxgl.accessToken = 'pk.eyJ1IjoiYWhvbmRvbmVybyIsImEiOiJja3UyYW12NHYxY3A2Mm9vN2h0YnptYnQ4In0.8C7-SYlgWLmmm6Fb_VZSgw';
       var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: [-71.060982, 42.35725],
-        zoom: 18,
-      })
-    </script>
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [125.96667, 7.6],
+      zoom: 10,
+    });
+      </script>
+       
   </body>
 </html>
