@@ -127,7 +127,7 @@ body{
 }
 
 h1{
-    font-size: 80px;
+    font-size: 70px;
 }
 
 .p2 span{
@@ -158,8 +158,8 @@ main{
     margin-top: 15px;
     background: #7689de;
     cursor: pointer;
-    color: #191919;
-    padding: 12px 30px;
+    /*color: #191919;*/
+    padding: 12px 25px;
     float: left;
     border: 0;
     border-radius: 20px;
@@ -173,8 +173,8 @@ main{
 
 img{
     margin-top: 5px;
-    margin-left: 30px;
-    width: 900px;
+    margin-left: 20px;
+    width: 700px;
     margin-bottom: auto;
     animation: zoomin 1s linear 1;
     animation-delay: 0.5s;

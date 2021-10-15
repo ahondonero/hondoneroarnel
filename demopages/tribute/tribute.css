@@ -1,60 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color: #a9dce3;
-    margin:0 20%;
-    font-family: 'Poppins';
-    justify-content: center;
-    text-align: center;
+    font-family: 'Poppins', sans-serif !important;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.btn-primary{
+    box-shadow: none !important;
+    padding: 8px 25px;
+    border-radius: 2px !important;
+    border: 2px solid black !important;
+    color: black !important;
+    background: none !important;
+
+}
+.btn-primary:hover{
+    background: black !important;
+    color: #fff !important;
+    border: 2px solid #fff !important;
 }
 
-
-
-#title{
-    text-align: center;
-    text-shadow: 5px 5px 10px black;
-    font-size:3em;
+#life{
+    padding: 40px 0;
+    color: black;
 }
-
-.center {
-    display: block;
+.title::before{
+    content: '';
+    background: black;
+    height: 5px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-  }
-
-div#tribute-info{
-    background-color:rgba(0,0,0,0.2);
-    box-shadow: 20px 20px 15px grey;
-    padding:5px 10px;
-    margin-top:20px;
+    display: block;
+    border-radius: 50px;
+    transform: translateY(46px);
 }
-h1.title{
-    color:white;
-    text-align:center;
-    text-shadow: 5px 5px 10px grey;
+ul{
+    list-style-type: none;
+    font-weight: lighter;
 }
-
-h2{
-    text-align: center;
-    font-family: 'Poppins';
-}
-
-h3{
-    text-align: center;
-    font-family: 'Poppins';
-}
-
-h6{
-    font-family: 'Poppins';
-    font-size: 15px;
-}
-
-p{
+ul li{
+    padding: 3px;
+    font-weight: 300;
+    color: black;
     text-align: justify;
-    font-family: 'Poppins';
-}
-
-p.p1{
-    font-size: 15px;
 }
